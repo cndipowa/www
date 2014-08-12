@@ -11,21 +11,7 @@
 |
 */
 
-
 Route::get('/', function()
 {
 	return View::make('hello');
 });
-
-Route::get('home', 'HomeController@showWelcome');
-Route::get('Shop', 'ShoppingCartController@Shop');
-Route::post('cart_update', 'ShoppingCartController@cart_update');
-Route::get('cart_update', 'ShoppingCartController@cart_update');
-
-
-
-
-
-
-
-
